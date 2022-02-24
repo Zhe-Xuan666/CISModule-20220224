@@ -1,0 +1,15 @@
+1.
+make 
+-->make object and executable file
+
+2.
+cd Move_Folder
+
+3.
+modify the POUT parameter in move.sh
+-->modify the path
+
+4.
+bash move.sh
+-->generate static lib and copy to other folder
+

@@ -1,0 +1,10 @@
+1.make .a file //if you have run move.sh, skip step 1.
+
+ar rvs libcismodule.a opencv_gst_camera.o fp16_dev.o readIni.o myFuncts.o
+cp libcismodule.a b.h myFuncts.h config.ini /home/cismodule/Downloads/0111/makefrom_StaticLib
+
+
+
+2.compile with .a file
+make
+./ArdenTec_Demo
